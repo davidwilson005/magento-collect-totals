@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_sales_order_view>
+        <reference name="order_totals">
+            <block type="adjusttotal/sales_order_total" name="adjusttotal.sales.order.total" />
+        </reference>
+    </adminhtml_sales_order_view>
+    <adminhtml_sales_order_invoice_new>
+        <reference name="invoice_totals">
+            <block type="adjusttotal/sales_order_invoice_total" name="adjusttotal.sales.order.invoice.total" />
+        </reference>
+    </adminhtml_sales_order_invoice_new>
+    <adminhtml_sales_order_invoice_updateqty>
+        <reference name="invoice_totals">
+            <block type="adjusttotal/sales_order_invoice_total" name="adjusttotal.sales.order.invoice.total" />
+        </reference>
+    </adminhtml_sales_order_invoice_updateqty>
+    <adminhtml_sales_order_invoice_view>
+        <reference name="invoice_totals">
+            <block type="adjusttotal/sales_order_invoice_total" name="adjusttotal.sales.order.invoice.total" />
+        </reference>
+    </adminhtml_sales_order_invoice_view>
+    <adminhtml_sales_order_creditmemo_new>
+        <reference name="creditmemo_totals">
+            <block type="adjusttotal/sales_order_creditmemo_total" name="adjusttotal.sales.order.creditmemo.total" />
+        </reference>
+    </adminhtml_sales_order_creditmemo_new>
+    <adminhtml_sales_order_creditmemo_updateqty>
+        <reference name="creditmemo_totals">
+            <block type="adjusttotal/sales_order_creditmemo_total" name="adjusttotal.sales.order.creditmemo.total" />
+        </reference>
+    </adminhtml_sales_order_creditmemo_updateqty>
+    <adminhtml_sales_order_creditmemo_view>
+        <reference name="creditmemo_totals">
+            <block type="adjusttotal/sales_order_creditmemo_total" name="adjusttotal.sales.order.creditmemo.total" />
+        </reference>
+    </adminhtml_sales_order_creditmemo_view>
+</layout>

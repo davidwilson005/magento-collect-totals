@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Drw_AdjustTotal>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Drw_AdjustTotal>
+    </modules>
+</config>
